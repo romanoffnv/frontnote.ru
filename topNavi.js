@@ -2,62 +2,7 @@
 const template = document.createElement('template');
 template.innerHTML = `
     <style>
-    * {
-      
-    }
-    #col1, #col2, #col3, #col4, #col5, #col6, #col7, #col8, #col9, #col10, #col11,#col12, #col13, #col14, #col15, #col16 
-    {
-      display: none;
-    }
-    /*
-    #col1 {
-      grid-area: 1/1/ 1/ 1;
-    }
-    #col2 {
-      grid-area: 1/2/ 1/ 2;
-    }
-    #col3 {
-      grid-area: 1/3/ 1/ 3;
-    }
-    #col4 {
-      grid-area: 1/4/ 1/ 4;
-    }
-    #col5 {
-      grid-area: 1/5/ 1/ 5;
-    }
-    #col6 {
-      grid-area: 1/6/ 1/ 6;
-    }
-    #col7 {
-      grid-area: 1/7/ 1/ 7;
-    }
-    #col8 {
-      grid-area: 1/8/ 1/ 8;
-    }
-    #col9 {
-      grid-area: 1/9/ 1/ 9;
-    }
-    #col10 {
-      grid-area: 1/10/ 1/ 10;
-    }
-    #col11 {
-      grid-area: 1/11/ 1/ 11;
-    }
-    #col12 {
-      grid-area: 1/12/ 1/ 12;
-    }
-    #col13 {
-      grid-area: 1/13/ 1/ 13;
-    }
-    #col14 {
-      grid-area: 1/14/ 1/ 14;
-    }
-    #col15 {
-      grid-area: 1/15/ 1/ 15;
-    }
-    #col16 {
-      grid-area: 1/16/ 1/ 16;
-    }*/
+    
     /*Search field*/
     #topNaviPanel {
       width: 100%;
@@ -204,23 +149,6 @@ template.innerHTML = `
     
 
     <div id = "topNaviPanel"> 
-      <div id = "col1">1</div>
-      <div id = "col2">2</div>
-      <div id = "col3">3</div>
-      <div id = "col4">4</div>
-      <div id = "col5">5</div>
-      <div id = "col6">6</div>
-      <div id = "col7">7</div>
-      <div id = "col8">8</div>
-      <div id = "col9">9</div>
-      <div id = "col10">10</div>
-      <div id = "col11">11</div>
-      <div id = "col12">12</div>
-      <div id = "col13">13</div>
-      <div id = "col14">14</div>
-      <div id = "col15">15</div>
-      <div id = "col16">16</div>
-
         <div class="searchField">
             <img src = "img/magnifier.png" alt = "magnifier glass"> 
             <input type="text" placeholder="Enter text" id="superform">
