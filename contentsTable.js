@@ -61,68 +61,14 @@ contTable.innerHTML = `
     }
 
     
-    
-        .blocks {
-                /*border: solid blue;*/
-            }
-            #col1 {
-                grid-area: 1 / 1 / 30 /1;
-            }
-            #col2 {
-                grid-area: 1 / 2 / 30 /2;
-            }
-            #col3 {
-                grid-area: 1 / 3 / 30 /3;
-            }
-            #col4 {
-                grid-area: 1 / 4 / 30 /4;
-            }
-            #col5 {
-                grid-area: 1 / 5 / 30 /5;
-            }
-            #col6 {
-                grid-area: 1 / 6 / 30 /6;
-            }
-            #col7 {
-                grid-area: 1 / 7 / 30 /7;
-            }
-            #col8 {
-                grid-area: 1 / 8 / 30 /8;
-            }
-            #col9 {
-                grid-area: 1 / 9 / 30 /9;
-            }
-            #col10 {
-                grid-area: 1 / 10 / 30 /10;
-            }
-            #col11 {
-                grid-area: 1 / 11 / 30 /11;
-            }
-            #col12 {
-                grid-area: 1 / 12 / 30 /12;
-            }
-            #col13 {
-                grid-area: 1 / 13 / 30 /13;
-            }
-            #col14 {
-                grid-area: 1 / 14 / 30 /14;
-            }
-            #col15 {
-                grid-area: 1 / 15 / 30 /15;
-            }
-
-            #col16 {
-                grid-area: 1 / 16 / 30 /16;
-            }
-
-            #contentsField {
-                display: grid;
-                grid-template: fit-content repeat(18, 1fr) / repeat(16, 1fr);
-                grid-column-gap: 10px;
-                grid-row-gap: 3px;   
-                grid-auto-rows: fit-content;
-                margin-bottom: 5%;          
-            }
+  #contentsField {
+        display: grid;
+        grid-template: fit-content repeat(18, 1fr) / repeat(16, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 3px;   
+        grid-auto-rows: fit-content;
+        margin-bottom: 5%;          
+      }
 
             .contentLine {
                 grid-column: 2 / 16;
@@ -139,24 +85,6 @@ contTable.innerHTML = `
     </style>
     
     <div id = "contentsField">
-    <!--Service cols and rows
-    <div class = "blocks" id = "col1">1</div>
-    <div class = "blocks" id = "col2">2</div>
-    <div class = "blocks" id = "col3">3</div>
-    <div class = "blocks" id = "col4">4</div>
-    <div class = "blocks" id = "col5">5</div>
-    <div class = "blocks" id = "col6">6</div>
-    <div class = "blocks" id = "col7">7</div>
-    <div class = "blocks" id = "col8">8</div>
-    <div class = "blocks" id = "col9">9</div>
-    <div class = "blocks" id = "col10">10</div>
-    <div class = "blocks" id = "col11">11</div>
-    <div class = "blocks" id = "col12">12</div>
-    <div class = "blocks" id = "col13">13</div>
-    <div class = "blocks" id = "col14">14</div>
-    <div class = "blocks" id = "col15">15</div>
-    <div class = "blocks" id = "col16">16</div>-->
-
         <div id = "closeOff" >
             <style>
                 #closeOff {
