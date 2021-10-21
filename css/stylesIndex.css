@@ -1,0 +1,25 @@
+/*Resets*/
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+ }
+ 
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+
+ .container {
+    width: 100%;
+    overflow-x: hidden;
+ }

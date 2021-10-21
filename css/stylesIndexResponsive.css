@@ -1,0 +1,14 @@
+/*Search field and FAQs*/
+@media only screen and (max-width: 560px) {
+    nav {
+        border: solid black;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    #theHeader {
+        border: solid blue;
+        position: relative;
+        height: 500px;
+    }
+}
+
